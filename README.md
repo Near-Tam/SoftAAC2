@@ -13,10 +13,10 @@ ALOGE("zhiyuanLOG: I am out internalGetParameter case3 if3");
 对SoftAAC2.cpp进行修改
 
 ## 编译
-在andrrid_source7.1/aosp目录下
-$source build/envsetup.sh
-$lunch [2] #aosp_arm64-eng
-$mmm framework/av/media/libstagefright/codecs/aacdec/
+  在andrrid_source7.1/aosp目录下
+  $source build/envsetup.sh
+  $lunch [2] #aosp_arm64-eng
+  $mmm framework/av/media/libstagefright/codecs/aacdec/
 
 ## 生成libstagefright_soft_aacdec.so，覆盖到手机上
 $adb root
