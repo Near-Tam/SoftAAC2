@@ -14,7 +14,7 @@ ALOGE("zhiyuanLOG: I am out internalGetParameter case3 if3");
 
 ## 编译
 
-	在andrrid_source7.1/aosp目录下
+	在android_source7.1/aosp目录下
 	$source build/envsetup.sh
 	$lunch [2] #aosp_arm64-eng
 	$mmm framework/av/media/libstagefright/codecs/aacdec/
