@@ -20,10 +20,10 @@ ALOGE("zhiyuanLOG: I am out internalGetParameter case3 if3");
 	$mmm framework/av/media/libstagefright/codecs/aacdec/
 
 ## 生成libstagefright_soft_aacdec.so，覆盖到手机上
-$adb root
-$adb remount
-$adb push out/target/product/generic_arm64/system/lib/libstagefright_soft_aacdec.so /system/lib
-$adb push out/target/product/generic_arm64/system/lib64/libstagefright_soft_aacdec.so /system/lib64
+	$adb root
+	$adb remount
+	$adb push out/target/product/generic_arm64/system/lib/libstagefright_soft_aacdec.so /system/lib
+	$adb push out/target/product/generic_arm64/system/lib64/libstagefright_soft_aacdec.so /system/lib64
 
 ## 让新编译的程序生效
 ### 方法1：重启
